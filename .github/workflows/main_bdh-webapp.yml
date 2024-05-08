@@ -61,6 +61,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'bdh-webapp'
-          slot-name: 'Production'
+          slot-name: 'staging'
           package: .
           
